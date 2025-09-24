@@ -50,10 +50,6 @@ Conector customizado do **n8n** que gera números aleatórios entre um mínimo e
 
 ### 3️⃣ Subir o serviço localmente (Docker)
 
-Volte para a raiz do projeto e suba os containers:
-
-``cd ../../``
-
 ``docker compose up -d``
 
 Isso vai subir: 
