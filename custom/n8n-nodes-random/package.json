@@ -1,0 +1,26 @@
+{
+    "name": "n8n-nodes-random",
+    "version": "0.1.0",
+    "description": "Random node for n8n - True Random Number Generator (Random.org)",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rimraf dist && tsc && cp -r src/nodes dist/ || true",
+        "dev": "tsc --watch"
+    },
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "nodes": [
+            "dist/nodes/Random/Random.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "n8n-core": "^1.0.0",
+        "n8n-workflow": "^1.0.0",
+        "rimraf": "^5.0.0",
+        "typescript": "^5.9.2"
+    }
+}
