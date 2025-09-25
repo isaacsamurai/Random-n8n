@@ -24,11 +24,7 @@ Conector customizado do **n8n** que gera números aleatórios entre um mínimo e
 
 ## 🔧 Pré-requisitos
 
-- Node.js + TypeScript versão 22 LTS  
-- npm  
 - Docker + Docker Compose  
-- PostgreSQL (usado pelo n8n)  
-- n8n self-hosted (versão estável mais recente)  
 
 ---
 
@@ -36,21 +32,31 @@ Conector customizado do **n8n** que gera números aleatórios entre um mínimo e
 
 ### 1️⃣ Clonar o repositório
 
-``git clone https://github.com/isaacsamurai/Random-n8n.git``
+```
+git clone https://github.com/isaacsamurai/Random-n8n.git
+```
 
-``cd Random-n8n/custom/n8n-nodes-random``
+```
+cd Random-n8n/custom/n8n-nodes-random
+```
 
 
 ### 2️⃣ Build do conector Random
 
-``npm install``
+```
+npm install
+```
 
-``npm run build``
+```
+npm run build
+```
 
 
-### 3️⃣ Subir o serviço localmente (Docker)
+### 3️⃣ Subir os containers
 
-``docker compose up -d``
+```
+docker compose up -d
+```
 
 Isso vai subir: 
 
